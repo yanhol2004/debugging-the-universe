@@ -1,6 +1,8 @@
-numpy
+tensorflow
+numpy==1.23.5
 pandas
 obspy
 matplotlib
 jupyter
 ipykernel
+scikit-learn
