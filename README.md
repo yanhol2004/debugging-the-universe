@@ -1,4 +1,4 @@
-Hi! Yana and Dea here! 
+Hi, Yana and Dea here! This repository contains our award-winning project for NASA Space Apps Challange (the local event in Brooklyn, NY).
 
 ## Project Summary
 This project addresses a critical challenge in lunar exploration: detecting and filtering moonquakes from large volumes of seismic data collected by the Apollo missions. **Moonquakes** are important for understanding the moon’s internal structure, but they are rare and buried within long recordings of seismic noise. The key challenge is to accurately detect these moonquakes and distinguish them from background noise.
