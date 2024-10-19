@@ -1,4 +1,13 @@
-Hi! Yana and Dea here!
+Hi! Yana and Dea here! 
+
+## Project Summary
+This project addresses a critical challenge in lunar exploration: detecting and filtering moonquakes from large volumes of seismic data collected by the Apollo missions. **Moonquakes** are important for understanding the moon’s internal structure, but they are rare and buried within long recordings of seismic noise. The key challenge is to accurately detect these moonquakes and distinguish them from background noise.
+
+Given the significant resources required to transmit data from the Moon to Earth, it’s essential to **filter out irrelevant data** and only transmit seismic events of scientific interest. The project uses combination of CNN (Convolutional Neural Network) and LSTM (Long Short-Term Memory) network layers to analyze long, noisy time series data and predict the exact start time of moonquakes. By focusing on temporal patterns in P waves and S waves—key seismic indicators—the model can identify moonquake events. The advantage of the machine learning approach is that the model analyzes both the **shape** and **amplitude** of the signal, rather than just focusing on intensity. This enables the model to effectively filter out high spikes caused by instrumental noise, focusing on meaningful seismic patterns. Here is an example below:
+
+![Moonquake Prediction](predictions_plots_v2/xa.s12.00.mhz.1970-02-18HR00_evid00016.csv_prediction_plot.png)
+
+This solution not only supports lunar exploration but also opens the door for broader applications in planetary seismology, helping prioritize the transmission of valuable data from space missions.
 
 ## Machine Learning model
 
